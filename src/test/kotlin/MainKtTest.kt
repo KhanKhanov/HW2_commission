@@ -13,7 +13,7 @@ class MainKtTest {
     @Test
     fun calcCommissionMasterElse() {
         val result = calcCommission("Mastercard", 76000, 10000)
-        assertEquals("Комиссия составляет 50.0 руб", result)
+        assertEquals("Комиссия составляет 80.0 руб", result)
     }
 
     @Test
